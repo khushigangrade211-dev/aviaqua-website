@@ -1,0 +1,6 @@
+{
+  "name": "AviAqua",
+  "description": "AviAqua Business Management Application — Commercial Water Softeners, Industrial RO Plants, Filtration Systems, and Turnkey Solar Rooftop Solutions in Indore, Madhya Pradesh.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
