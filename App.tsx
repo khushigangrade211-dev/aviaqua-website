@@ -1,14 +1,13 @@
 import React from 'react';
 import { BrowserRouter, Navigate, Route, Routes } from 'react-router-dom';
-import { AuthProvider, useAuth } from './context/AuthContext';
-import PublicWebsite from './pages/PublicWebsite';
-import LoginPage from './pages/LoginPage';
-import RegisterPage from './pages/RegisterPage';
-import CustomerPortal from './pages/CustomerPortal';
-import EmployeePortal from './pages/EmployeePortal';
-import AdminPortal from './pages/AdminPortal';
-import { UserRole } from './lib/types';
-
+import { AuthProvider, useAuth } from './AuthContext';
+import PublicWebsite from './PublicWebsite';
+import LoginPage from './LoginPage';
+import RegisterPage from './RegisterPage';
+import CustomerPortal from './CustomerPortal';
+import EmployeePortal from './EmployeePortal';
+import AdminPortal from './AdminPortal';
+import { UserRole } from './types';
 function ProtectedRoute({
   allowedRoles,
   children,
